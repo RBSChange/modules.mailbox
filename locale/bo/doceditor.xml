@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	<entity id="property.sender">
+		<locale lang="fr">expéditeur</locale>
+		<locale lang="en">sender</locale>
+	</entity>
+	<entity id="property.receiver">
+		<locale lang="fr">destinataire</locale>
+		<locale lang="en">receiver</locale>
+	</entity>
+	<entity id="property.modulename">
+		<locale lang="fr">module d'origine</locale>
+		<locale lang="en">module name</locale>
+	</entity>
+</localization>

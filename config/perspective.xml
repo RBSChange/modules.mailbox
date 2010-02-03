@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<perspective>
+	<models>
+		<model name="modules_generic/rootfolder">
+			<children>
+				<child model="modules_generic/folder" />
+			</children>
+			<contextactions>
+				<contextaction name="edit" />
+			</contextactions>
+		</model>
+		<model name="modules_generic/folder">
+			<children>
+				<child model="modules_generic/folder" />
+				<child model="modules_mailbox/message" from="function" />
+			</children>
+			<columns>
+				<column name="modulename" label="module" flex="1" />
+				<column name="sender" label="sender" flex="1" />
+			</columns>
+			<contextactions>
+				<contextaction name="openFolder" />
+			</contextactions>
+		</model>
+		<model name="modules_mailbox/message">
+			<contextactions>
+				<contextaction name="edit" />
+			</contextactions>
+		</model>
+	</models>
+	<toolbar>
+		<toolbarbutton name="edit" />
+	</toolbar>
+	<actions>
+		<action name="refresh" single="true" icon="refresh" label="&amp;modules.uixul.bo.actions.Refresh;" />
+		<action name="edit" single="true" permission="Load" icon="edit" label="&amp;modules.uixul.bo.actions.Edit;" />
+		<action name="openFolder" icon="folder_into" label="&amp;modules.uixul.bo.actions.OpenFolder;" />
+	</actions>
+</perspective>

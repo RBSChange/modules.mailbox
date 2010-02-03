@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<bindings xmlns="http://www.mozilla.org/xbl" xmlns:xbl="http://www.mozilla.org/xbl" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<binding id="cResumeMesageSection" extends="layout.cDocumentEditor#cResumeSection">
+	</binding>
+
+	<binding id="cMessagecontentProperty" extends="layout.cDocumentEditor#cProperty">
+		<content>
+			<xul:vbox anonid="content" class="content" flex="1">
+				<xul:iframe xbl:inherits="src=iframeurl,hidden" flex="1" frameborder="0" scrolling="no" style="height:400px!important" />
+			</xul:vbox>
+		</content>
+		<implementation>
+			<method name="setValue">
+				<parameter name="val" />
+				<body><![CDATA[
+					if (val)
+					{
+						if (val.constructor == String)
+						{
+							this.setAttribute('iframeurl', val);
+						}
+						this.removeAttribute("hidden");
+					}
+					else
+					{
+						this.setAttribute('iframeurl', 'about:blank');
+						this.setAttribute("hidden", true);
+					}
+				]]></body>
+			</method>
+		</implementation>
+	</binding>
+</bindings>
