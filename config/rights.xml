@@ -10,6 +10,7 @@
 			<permission name="LoadPermissions.*" />
 			<permission name="SavePermissions.*" />
 			<permission name="Load.*" />
+			<permission name="EditLocale"/>
 		</role>
 		<role name="Guest" extend="User">
 			<permission name="Enabled" />
