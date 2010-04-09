@@ -112,10 +112,10 @@ class mailbox_MessageService extends f_persistentdocument_DocumentService
 	 *
 	 * @param f_persistentdocument_PersistentDocument $document
 	 * @param string $forModuleName
-	 * @param unknown_type $allowedSections
+	 * @param array $allowedSections
 	 * @return array
 	 */
-	public function getResume($document, $forModuleName, $allowedSections)
+	public function getResume($document, $forModuleName, $allowedSections = null)
 	{
 		$data = parent::getResume($document, $forModuleName, $allowedSections);
 		$link = LinkHelper::getUIActionLink('mailbox', 'ViewMessage');
