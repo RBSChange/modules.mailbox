@@ -4,21 +4,17 @@
  * @package mailbox
  */
 class mailbox_persistentdocument_message extends mailbox_persistentdocument_messagebase 
-{	
+{
+	/**
+	 * @return boolean
+	 */
 	private function useCompression()
 	{
-		try 
-		{
-			return Framework::getConfiguration('modules/mailbox/use_compression') == "true";
-		} 
-		catch (Exception $e) 
-		{
-			return true;
-		}	
+		return Framework::getConfigurationValue('modules/mailbox/use_compression', 'true') == 'true';
 	}
 	
 	/**
-	 * @param String $content
+	 * @param string $content
 	 * @return void
 	 */
 	public function setContent($content)
@@ -35,7 +31,7 @@ class mailbox_persistentdocument_message extends mailbox_persistentdocument_mess
 	}
 	
 	/**
-	 * @return String
+	 * @return string
 	 */
 	public function getUngzContent()
 	{
@@ -49,9 +45,11 @@ class mailbox_persistentdocument_message extends mailbox_persistentdocument_mess
 		}
 	}	
 	
+	/**
+	 * @return string
+	 */
 	public function getModulename()
 	{
 		return ModuleService::getInstance()->getUILocalizedModuleLabel(parent::getModulename());
 	}
-
 }

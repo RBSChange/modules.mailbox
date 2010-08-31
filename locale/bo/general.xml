@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localization>
-  <entity id="module-name">
-    <locale lang="fr">boîte de réception</locale>
-    <locale lang="en">mailbox</locale>
-    <locale lang="de">Posteingang</locale>
-  </entity>
-  <entity id="tree-root-name">
-    <locale lang="fr">boîte de réception</locale>
-    <locale lang="en">mailbox</locale>
-    <locale lang="de">Posteingang</locale>
-  </entity>
-  <entity id="system-folder-name">
-    <locale lang="fr">boîte de réception</locale>
-    <locale lang="en">mailbox</locale>
-    <locale lang="de">Posteingang</locale>
-  </entity>
-  <entity id="column.module">
-    <locale lang="fr">Module</locale>
-    <locale lang="en">Module</locale>
-  </entity>
-  <entity id="column.sender">
-    <locale lang="fr">Expéditeur</locale>
-    <locale lang="en">Sender</locale>
-  </entity>
+	<entity id="module-name">
+		<locale lang="fr">boîte de réception</locale>
+		<locale lang="en">mailbox</locale>
+		<locale lang="de">Posteingang</locale>
+	</entity>
+	<entity id="tree-root-name">
+		<locale lang="fr">boîte de réception</locale>
+		<locale lang="en">mailbox</locale>
+		<locale lang="de">Posteingang</locale>
+	</entity>
+	<entity id="system-folder-name">
+		<locale lang="fr">boîte de réception</locale>
+		<locale lang="en">mailbox</locale>
+		<locale lang="de">Posteingang</locale>
+	</entity>
+	<entity id="column.module">
+		<locale lang="fr">Module</locale>
+		<locale lang="en">Module</locale>
+	</entity>
+	<entity id="column.sender">
+		<locale lang="fr">Expéditeur</locale>
+		<locale lang="en">Sender</locale>
+	</entity>
 </localization>

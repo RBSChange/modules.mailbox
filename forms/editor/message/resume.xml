@@ -9,6 +9,6 @@
 	</section>
 	
 	<section name="content" labeli18n="modules.uixul.bo.doceditor.section.Content" image="{IconsBase}/small/preview.png">
-		<property name="iframeurl"  type="iframe" height="600" labeli18n="modules.uixul.bo.doceditor.property.Label" />
+		<property name="iframeurl" type="iframe" height="600" labeli18n="modules.uixul.bo.doceditor.property.Label" />
 	</section>
 </panel>

@@ -45,7 +45,7 @@ class mailbox_MessageService extends f_persistentdocument_DocumentService
 	 * @param Integer $parentNodeId Parent node ID where to save the document (optionnal => can be null !).
 	 * @return void
 	 */
-	protected function preSave($document, $parentNodeId = null)
+	protected function preSave($document, $parentNodeId)
 	{
 		$document->setLabel($document->getSubject());
 		if (f_util_StringUtils::isEmpty($document->getReceiver()))
@@ -59,7 +59,7 @@ class mailbox_MessageService extends f_persistentdocument_DocumentService
 	 * @param Integer $parentNodeId Parent node ID where to save the document (optionnal => can be null !).
 	 * @return void
 	 */
-	protected function postInsert($document, $parentNodeId = null)
+	protected function postInsert($document, $parentNodeId)
 	{
 		$this->getFolderOfDay();
 	}
@@ -126,5 +126,4 @@ class mailbox_MessageService extends f_persistentdocument_DocumentService
 	    $data['properties']['receiver'] = $document->getReceiver();   
 		return $data;
 	}
-
 }
