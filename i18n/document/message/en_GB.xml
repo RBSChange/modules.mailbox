@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.mailbox.document.message" lcid="en_GB">
+  <key id="document-name">message</key>
+  <key id="creationdate">date</key>
+  <key id="creationdate-help">message creation date</key>
+  <key id="subject">subject</key>
+  <key id="receiver">receiver</key>
+  <key id="sender">sender</key>
+  <key id="content">content</key>
+  <key id="modulename">module name</key>
+  <key id="modulename-help">name of the sender module</key>
+</i18n>

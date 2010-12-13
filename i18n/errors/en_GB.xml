@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.mailbox.errors" lcid="en_GB">
+  <key id="modules-mailbox-enabled">you don't have the appropriate permission to perform this operation : ″Access to the module″</key>
+</i18n>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.mailbox.bo.general" lcid="fr_FR">
+  <key id="module-name">boîte de réception</key>
+  <key id="tree-root-name">boîte de réception</key>
+  <key id="system-folder-name">boîte de réception</key>
+</i18n>
