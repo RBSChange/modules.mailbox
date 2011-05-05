@@ -15,8 +15,9 @@
 				<child model="modules_mailbox/message" from="function" />
 			</children>
 			<columns>
-				<column name="modulename" label="module" flex="1" />
-				<column name="sender" label="sender" flex="1" />
+				<column name="date" label="date" flex="2" />
+				<column name="modulename" label="module" flex="2" />
+				<column name="sender" label="sender" flex="2" />
 			</columns>
 			<contextactions>
 				<contextaction name="openFolder" />

@@ -108,9 +108,7 @@ class mailbox_MessageService extends f_persistentdocument_DocumentService
 	}
 	
 	/**
-	 * @see f_persistentdocument_DocumentService::getResume()
-	 *
-	 * @param f_persistentdocument_PersistentDocument $document
+	 * @param mailbox_persistentdocument_message $document
 	 * @param string $forModuleName
 	 * @param array $allowedSections
 	 * @return array
@@ -125,5 +123,17 @@ class mailbox_MessageService extends f_persistentdocument_DocumentService
 	    $data['properties']['sender'] = $document->getSender();
 	    $data['properties']['receiver'] = $document->getReceiver();   
 		return $data;
+	}
+	
+	/**
+	 * @param mailbox_persistentdocument_message $document
+	 * @param string $moduleName
+	 * @param string $treeType
+	 * @param array<string, string> $nodeAttributes
+	 */
+	public function addTreeAttributes($document, $moduleName, $treeType, &$nodeAttributes)
+	{
+		$format = date_DateFormat::getDateTimeFormatForLang(RequestContext::getInstance()->getUILang());
+		$nodeAttributes['date'] = date_DateFormat::format($document->getUICreationdate(), $format);
 	}
 }

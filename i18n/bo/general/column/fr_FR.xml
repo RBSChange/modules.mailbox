@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <i18n baseKey="m.mailbox.bo.general.column" lcid="fr_FR">
-  <key id="module">Module</key>
-  <key id="sender">Expéditeur</key>
+	<key id="module">Module</key>
+	<key id="sender">Expéditeur</key>
+	<key id="date">Date</key>
 </i18n>
