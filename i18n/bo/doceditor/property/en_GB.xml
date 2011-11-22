@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <i18n baseKey="m.mailbox.bo.doceditor.property" lcid="en_GB">
   <key id="sender">sender</key>
-  <key id="receiver">receiver</key>
-  <key id="modulename">module name</key>
+  <key id="receiver">recipient</key>
+  <key id="modulename">original module</key>
 </i18n>

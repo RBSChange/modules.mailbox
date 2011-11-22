@@ -33,8 +33,8 @@
 		<toolbarbutton name="edit" />
 	</toolbar>
 	<actions>
-		<action name="refresh" single="true" icon="refresh" label="&amp;modules.uixul.bo.actions.Refresh;" />
-		<action name="edit" single="true" permission="Load" icon="edit" label="&amp;modules.uixul.bo.actions.Edit;" />
-		<action name="openFolder" icon="folder_into" label="&amp;modules.uixul.bo.actions.OpenFolder;" />
+		<action name="refresh" single="true" icon="refresh" labeli18n="m.uixul.bo.actions.Refresh" />
+		<action name="edit" single="true" permission="Load" icon="edit" labeli18n="m.uixul.bo.actions.Edit" />
+		<action name="openFolder" icon="folder_into" labeli18n="m.uixul.bo.actions.OpenFolder" />
 	</actions>
 </perspective>

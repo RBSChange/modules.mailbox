@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <i18n baseKey="m.mailbox.bo.general" lcid="en_GB">
-  <key id="module-name">mailbox</key>
-  <key id="tree-root-name">mailbox</key>
-  <key id="system-folder-name">mailbox</key>
+  <key id="module-name">inbox</key>
+  <key id="tree-root-name">inbox</key>
+  <key id="system-folder-name">inbox</key>
 </i18n>
