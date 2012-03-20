@@ -1,6 +1,0 @@
-cdocumenteditor#edt_mailbox_message cresumesection[sectionname="content"]{
-	-moz-binding: url(binding:modules.mailbox.cMessageEditor#cResumeMesageSection);
-}
-cproperty[type="messagecontent"]{
-	-moz-binding: url(binding:modules.mailbox.cMessageEditor#cMessagecontentProperty);
-}

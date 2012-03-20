@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<i18n baseKey="m.mailbox.bo.doceditor.property" lcid="fr_FR">
-  <key id="sender">expéditeur</key>
-  <key id="receiver">destinataire</key>
-  <key id="modulename">module d'origine</key>
-</i18n>

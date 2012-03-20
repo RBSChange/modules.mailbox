@@ -13,10 +13,6 @@
 			<cmoduletoolbar id="moduletoolbar" />
 			<cmodulelist id="documentlist" flex="1" />			
 		</vbox>
-		<tal:block change:documenteditors="module mailbox" />				
+		<tal:block change:documenteditors="module mailbox" />
 	</deck>
-	<splitter collapse="after">
-		<wsplitterbutton />
-	</splitter>
-	<cressourcesselector width="210" id="ressourcesSelector" collapsed="true" />
 </hbox>

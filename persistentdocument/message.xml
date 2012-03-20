@@ -6,7 +6,7 @@
 		<add name="subject" type="String" min-occurs="1" max-occurs="1" />
 		<add name="receiver" type="LongString" min-occurs="1" max-occurs="1" />
 		<add name="sender" type="String" min-occurs="1" max-occurs="1" />
-		<add name="content" type="XHTMLFragment" min-occurs="1" max-occurs="1" />
+		<add name="content" type="Lob" min-occurs="1" max-occurs="1" />
 		<add name="modulename" type="String" min-occurs="1" max-occurs="1" />
 	</properties>
 	<statuses default="PUBLICATED" />
